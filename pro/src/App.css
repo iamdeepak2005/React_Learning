@@ -1,0 +1,28 @@
+.card{
+    background-color: #1e1e1e;
+    color:burlywood;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.cardBody{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);  
+    gap: 10px;                            
+}
+.card:hover{
+    background-color: #3e3e3e;
+}
+span{
+    color:darkcyan;
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-weight: 900;
+    font-size: 2rem;
+    color:darkcyan;
+}
